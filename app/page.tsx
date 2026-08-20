@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ContactCard from "./ui/contactCard";
 
 export default function Home() {
   return (
@@ -63,6 +64,9 @@ export default function Home() {
             Documentation
           </a>
         </div>
+
+        <ContactCard />
+
       </main>
     </div>
   );
